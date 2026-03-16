@@ -1,0 +1,30 @@
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Fichiers temporaires
+tempCodeRunnerFile.py
+.DS_Store
+
+# Environnement virtuel
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# pytest
+.pytest_cache/
+.coverage
