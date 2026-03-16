@@ -19,5 +19,15 @@ class Livre:
 
 
   def __str__(self):
-    print("id" ,self.id , "titre" , self.titre , "auteur" , self.auteur , "annee" , self.annee , "isbn" , self.isbn , "disponible" , self.disponible)
+    return f"id: {self.id}, titre: {self.titre}, auteur: {self.auteur}, année: {self.annee}, isbn: {self.isbn}, disponible: {self.disponible}"
+
+
+ def get_titre(self):
+   return self.titre
+ 
+
+ def set_titre(self , nouveau_titre):
+   if len(nouveau_titre) == 0:
+     raise ValueError("le nouveau titre ne peut pas etre vide")
+   self.titre = nouveau_titre
 
